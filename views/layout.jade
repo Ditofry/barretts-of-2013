@@ -3,6 +3,12 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/unslider/dist/css/unslider.css')
+    link(rel='stylesheet', href='/unslider/dist/css/unslider-dots.css')
   body
     div(id='main')
       block content
+
+  script(src='//code.jquery.com/jquery-2.1.4.min.js')
+  script(src='/unslider/dist/js/unslider-min.js')
+  script(src='/javascripts/unsliderInit.js')

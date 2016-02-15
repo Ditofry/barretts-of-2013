@@ -9,6 +9,14 @@ div#main {
   padding: 20px;
 }
 
+div.banner {
+  max-width: 1000px;
+}
+
+div.banner img {
+  width: 100%
+}
+
 a {
   color: #00B7FF;
 }
