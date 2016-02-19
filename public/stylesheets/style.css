@@ -3,20 +3,61 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+nav#main-nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 42px;
+  z-index: 10;
+  background: white;
+}
+
+nav#main-nav ul {
+  list-style: none;
+}
+
+nav a.wedding-link {
+  width: 85px;
+  float: left;
+  margin: 0px 30px;
+}
+
+nav a.wedding-link img {
+  width: 100%;
+}
+
+nav#main-nav ul li {
+  float: left;
+  width: 100px;
+}
+
 div#main {
+  width: 80%;
+  margin: 0px auto;
+  max-width: 1000;
+}
+
+div.content-container {
   /*background-color: #ECB476;*/
   background-color: #F6BC7B;
   padding: 20px;
 }
 
 div.banner {
+  text-align: center;
   max-width: 1000px;
 }
-
+/*
 div.banner img {
   width: 100%
-}
+}*/
+
 
 a {
   color: #00B7FF;
+}
+
+.slider img {
+  width: 100%;
 }
