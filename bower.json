@@ -15,7 +15,6 @@
   ],
   "dependencies": {
     "jquery": "~2.2.0",
-    "unslider": "~2.0.3",
     "bxslider-4": "~4.2.5"
   }
 }
