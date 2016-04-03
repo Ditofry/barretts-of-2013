@@ -73,3 +73,7 @@ a {
 .slider img {
   width: 100%;
 }
+
+div#main ul li {
+  padding: 7px 2px;
+}
